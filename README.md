@@ -35,8 +35,7 @@ python app.py
 ```
 
 ### 4. Accéder à l’application
-Ouvrez votre navigateur et rendez-vous à l'adresse suivante :  
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
+Une fois le serveur en marche, vous pouvez accéder à l'application en vous rendant à l'adresse suivante dans votre navigateur : [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
@@ -93,7 +92,7 @@ Chaque échec d'un test doit être documenté dans une **Issue GitHub**, qui inc
 
 ---
 
-## 👥 Équipe
+## Équipe
 - **Nom de l’équipe :** 16  
 - **Membres :**  
   - Mahdi Gargouri 
