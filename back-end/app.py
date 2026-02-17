@@ -1,7 +1,19 @@
+import os
+from pathlib import Path
+
 from flask import Flask, request, render_template
 from operators import add, subtract, multiply, divide
 
-app = Flask(__name__)
+BASE_DIR = Path(__file__).parent
+FRONT_END_DIR = BASE_DIR.parent / 'front-end'
+TEMPLATE_DIR = FRONT_END_DIR / 'templates'
+STATIC_DIR = FRONT_END_DIR / 'static'
+
+app = Flask(__name__,
+            template_folder=str(TEMPLATE_DIR),
+            static_folder=str(STATIC_DIR),
+            static_url_path='/static')
+
 
 OPS = {
     '+': add,
