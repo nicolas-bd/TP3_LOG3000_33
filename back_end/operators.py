@@ -38,7 +38,7 @@ def multiply(a,b):
     Any: Produit des deux nombres
 
    """
-    return a ** b
+    return a * b
 
 def divide(a,b):
     """Fonction qui divise un nombre à un autre ( a / b )
