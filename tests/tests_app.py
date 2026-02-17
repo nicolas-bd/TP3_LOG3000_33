@@ -17,10 +17,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(calculate("5*3"), 15)
 
     def test_division(self):
-        self.assertEqual(calculate("9/3"), 3)
+        self.assertEqual(calculate("9/2"), 4.5)
 
     def test_division_by_zero(self):
-        self.assertRaises(ZeroDivisionError, calculate("5/0"))
+        self.assertRaises(ZeroDivisionError, lambda: calculate("5/0"))
 
     def test_Empty(self):
         with self.assertRaises(ValueError) as ctx:
