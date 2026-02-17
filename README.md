@@ -169,52 +169,83 @@ Appuyez sur **Ctrl+C** dans le terminal où Flask s'exécute.
 
 ---
 
+
 ## Tests
 
 ### État actuel
 
-### Structure des tests
+✅ **Tests unitaires complets** couvrant :
+- Les 4 opérations mathématiques (addition, soustraction, multiplication, division)
+- Les cas d'erreur (division par zéro, expression vide, format invalide, opérandes non numériques)
+- **Couverture** : 8 tests couvrant tous les chemins critiques de la fonction `calculate()`
 
-Les tests seront organisés dans le répertoire `tests/` :
+### Structure des tests
 
 ```
 tests/
 ├── __init__.py
-├── test_operators.py      # Tests unitaires du module operators
-├── test_app.py            # Tests des routes Flask
-└── test_integration.py    # Tests d'intégration
+├── test_app.py               # Tests des routes Flask
+└── test_operators.py         # Tests unitaires des opérateurs
 ```
 
-### Configuration des tests
+### Prérequis pour les tests
 
-#### Installer les dépendances de test
+Les tests utilisent le module `unittest` inclus dans Python. Optionnellement, vous pouvez installer pytest :
 
 ```bash
 pip install pytest pytest-flask
 ```
 
-#### Ajouter à `requirements.txt`
-```
-pytest==7.4.0
-pytest-flask==1.2.1
-```
-
 ### Exécuter les tests
 
+#### Avec unittest (configuration actuelle)
+
 ```bash
-# Lancer tous les tests
-pytest
+# Exécuter tous les tests
+python tests/test_app.py
 
-# Avec rapport de couverture
-pytest --cov=. --cov-report=html
+# Avec sortie verbose
+python tests/test_app.py -v
 
-# Tests verbeux
-pytest -v
+# Exécuter un test spécifique
+python tests/test_app.py MyTestCase.test_addition
 
-# Un fichier spécifique
-pytest tests/test_operators.py
+# Via la ligne de commande
+python -m unittest tests.test_app -v
 ```
 
+### Couverture des tests
+
+#### ✅ Opérations arithmétiques valides
+
+| Test | Expression | Résultat attendu |
+|------|-----------|------------------|
+| `test_addition` | `"2+3"` | `5` |
+| `test_substraction` | `"5-3"` | `2` |
+| `test_multiplication` | `"5*3"` | `15` |
+| `test_division` | `"9/3"` | `3` |
+
+#### ⚠️ Gestion des erreurs
+
+| Test | Expression | Exception | Message |
+|------|-----------|-----------|---------|
+| `test_division_by_zero` | `"5/0"` | `ZeroDivisionError` | - |
+| `test_empty` | `""` | `ValueError` | `"empty expression"` |
+| `test_multiple_operators` | `"2++3"` | `ValueError` | `"only one operator is allowed"` |
+| `test_invalid_format` | `"52+"` | `ValueError` | `"invalid expression format"` |
+| `test_not_a_number` | `"a+b"` | `ValueError` | `"operands must be numbers"` |
+
+### Résultat attendu
+
+Lors d'une exécution réussie :
+
+```
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
+```
 ### Modules clés
 
 Pour une documentation détaillée de chaque module, consultez :
