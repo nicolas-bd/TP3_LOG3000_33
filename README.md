@@ -93,17 +93,17 @@ Structure attendue :
 flask-calculator/
 ├── back-end/
 │   ├── app.py
-│   ├── operators.py
-│   └─── tests/
-│        ├── operators-test.py
-│        └── app-test.py
-├── README.md
-└── front-end/
-    ├── templates/
-    │   └── index.html
-    └── static/
-        └── style.css
+│   └── operators.py
 
+├── README.md
+├── front-end/
+│    ├── templates/
+│    │   └── index.html
+│    └── static/
+│        └── style.css
+└── tests/
+     ├── operators-test.py
+     └── app-test.py
 ```
 ---
 
