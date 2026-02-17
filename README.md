@@ -1,17 +1,29 @@
-Online Calculator
+# Online Calculator
 
-Groupe 64
+## Groupe 64
 
+## Objectif
 Donner accès à une calculatrice en ligne avec un serveur centralisé
 
-Prérequis d'installation:
-- 
--Python doit être installé sur la machine qui héberge le service de calculatrice
+## Prérequis d'installation
 
--Le module pip de python doit être installé préalablement de l'installation du module flask qui effectue l'hébergement du serveur
+- Python doit être installé sur la machine qui héberge le service de calculatrice
+- Le module pip de Python doit être installé préalablement à l'installation du module Flask qui effectue l'hébergement du serveur
 
-Instruction d'installation
--
+## Instructions d'installation
 
--Installer Flask via le terminal avec la commande: 
--pip install flask- ou python -m pip install flask
+### 1. Installer Flask
+
+Installer Flask via le terminal avec la commande :
+
+```bash
+pip install flask
+```
+
+## Utilisation
+
+[À compléter]
+
+## Support
+
+[À compléter]
