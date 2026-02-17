@@ -15,6 +15,7 @@ app = Flask(__name__,
             static_url_path='/static')
 
 
+
 OPS = {
     '+': add,
     '-': subtract,
@@ -23,6 +24,16 @@ OPS = {
 }
 
 def calculate(expr: str):
+    """Fonction qui permet à la calculatrice de faire des calculs. Elle prend en paramètre une 
+    expression sous la forme "a op b" (op est un opérateur) et retourne le résultat si l'expression est correcte.
+
+    Parameters:
+    expr (str): Expréssion à calculer sous la forme "a op b"
+
+    Returns:
+    float: Résultat de l'opération
+
+   """
     if not expr or not isinstance(expr, str):
         raise ValueError("empty expression")
 
@@ -55,6 +66,14 @@ def calculate(expr: str):
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    """
+    Fonction qui sert de endpoint HTTP pour la calculatrice.\n
+
+    POST: Elle prend l'élément "display" du formulaire de la requête l'expression sous la forme "a op b" et appel
+    la fonction de calcul et render la page pour afficher le résultat de l'opération.
+
+    GET: elle render la page HTML de la calculatrice.
+   """
     result = ""
     if request.method == 'POST':
         expression = request.form.get('display', '')
