@@ -115,7 +115,7 @@ flask-calculator/
 2. Exécutez la commande :
 
 ```bash
-python app.py
+python tests_app.py
 ```
 
 3. Attendez le message :
@@ -273,7 +273,7 @@ git checkout -b docs/update-readme
 
 ```bash
 # Développer et tester localement
-python app.py
+python tests_app.py
 
 # Exécuter les tests
 pytest
@@ -289,7 +289,7 @@ pytest
 git status
 
 # Ajouter les fichiers pertinents
-git add app.py operators.py
+git add tests_app.py operators.py
 
 # Committer avec un message descriptif
 git commit -m "fix: corriger la division entière dans operators.divide()"

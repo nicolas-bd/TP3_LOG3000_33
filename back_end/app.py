@@ -5,7 +5,7 @@ from flask import Flask, request, render_template
 from operators import add, subtract, multiply, divide
 
 BASE_DIR = Path(__file__).parent
-FRONT_END_DIR = BASE_DIR.parent / 'front-end'
+FRONT_END_DIR = BASE_DIR.parent / 'front_end'
 TEMPLATE_DIR = FRONT_END_DIR / 'templates'
 STATIC_DIR = FRONT_END_DIR / 'static'
 
