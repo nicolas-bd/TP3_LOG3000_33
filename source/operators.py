@@ -25,7 +25,7 @@ def multiply(a, b):
     :param b: The second number operand.
     :return: The product of the two numbers.
     """
-    return a ** b
+    return a * b
 
 
 def divide(a, b):
