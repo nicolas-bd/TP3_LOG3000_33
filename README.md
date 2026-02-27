@@ -1,4 +1,4 @@
-# Devoir3-LOG3000
+# TP3_LOG3000
 ## Équipe #48
 TP 3 en Log3000, contenant le code d'une calculatrice en ligne.
 
