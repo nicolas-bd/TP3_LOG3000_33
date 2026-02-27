@@ -32,7 +32,7 @@ Le programme ouvert est constitué d'une calculatrice pouvant effectuer des addi
 Il faut entrer le numéro de son choix, puis l'opération choisie, et finalement entrer un deuxième numéro.
 La touche "=" fera afficher la réponse dans la zone désignée, et fera afficher un message d'erreur en cas de problème.
 La touche "C" fera nettoyer le champ de saisie.
-ATTENTION: la calculatrice ne peut pas prendre en charge les opérations sur des numéros signés, et ne peut pas calculer deux opérations à la suite de l'autre.
+ATTENTION: la calculatrice ne peut pas prendre en charge les opérations sur des numéros signés.
 
 ## Tests
 Vous pourrez trouver tous les tests du projet dans le dossier "src/tests".
@@ -55,5 +55,5 @@ Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
 ## Contributions
 - NicolasBilodeau?? (?/?/?) : Création du projet initial
 - TCholette (02/27/2026) : Rédaction des documents ReadMe 
-- AlonsoVidalHerrera?? (02/27/2026) : Rédaction de la documentation
+- RadioFloyd2351 (02/27/2026) : Rédaction de la documentation
 
