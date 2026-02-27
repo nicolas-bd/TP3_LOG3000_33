@@ -35,7 +35,7 @@ La touche "C" fera nettoyer le champ de saisie.
 ATTENTION: la calculatrice ne peut pas prendre en charge les opérations sur des numéros signés.
 
 ## Tests
-Vous pourrez trouver tous les tests du projet dans le dossier "src/tests".
+Vous pourrez trouver tous les tests du projet dans le dossier "source/tests".
 
 ### Prérequis
 - Installer Python.
