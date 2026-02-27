@@ -42,13 +42,13 @@ Vous pourrez trouver tous les tests du projet dans le dossier "src/tests".
 
 
 ### Exécuter les tests
-Depuis la racine du projet (*Devoir3-LOG3000*), lancer :
-- Tous les tests :
-  - `python -m pytest -v`
-- Un fichier de test précis :
-  - `python -m pytest -v src/tests/test_operators.py`
-- Un test précis :
-  - `python -m pytest -v src/tests/test_operators.py::test_add`
+Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
+- Pour lancer tous les tests :
+  Entrer la commande "python -m pytest -v"
+- Pour lancer les tests d'un fichier de test spécifique :
+  Entrer la commande "python -m pytest -v src/tests/test_operators.py"
+- Pour lancer un test précis :
+  Entrer la commande python -m pytest -v src/tests/test_operators.py::test_add"
 
 ### Ajouter des tests plus tard
 Pour ajouter de nouveaux tests :
