@@ -37,11 +37,19 @@
 </div>
 
 <script>
+    /**
+     * Function used to append a string to the display.
+     * @param value the string to add to the display.
+     */
    function appendToDisplay(value) {
       const display = document.getElementById('display');
       display.value += value;
    }
 
+    /**
+     * Function used to reset the display.
+     * Clears the value of the display.
+     */
    function clearDisplay() {
       document.getElementById('display').value = '';
    }
