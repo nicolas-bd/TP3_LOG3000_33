@@ -19,6 +19,7 @@ Ce fichier contient deux fonctions:
 - "index" sert à prendre l'opération fournie et soit:
     - Envoyer le résultat de l'opération à afficher (calculée par la fonction "calculate") au client HTML
     - Envoyer une erreur au client HTML si le calcul n'est pas possible.
+Il dépend du fichier "operators.py" pour appeler une de ses fonctions.
 
 ## Ce répertoire contient aussi les répertoires:
 - *static*, contenant le fichier de style (voir "/static/README").
