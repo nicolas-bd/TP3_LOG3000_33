@@ -49,12 +49,7 @@ Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
   Entrer la commande "python -m pytest -v src/tests/test_operators.py"
 - Pour lancer un test précis :
   Entrer la commande python -m pytest -v src/tests/test_operators.py::test_add"
-
-### Ajouter des tests plus tard
-Pour ajouter de nouveaux tests :
-- Créer (ou compléter) un fichier `test_*.py` dans *src/tests*.
-- Nommer chaque fonction de test avec le préfixe `test_`.
-- Utiliser des `assert` pour valider les résultats attendus.
+  
 
 ## Contributions
 - NicolasBilodeau?? (?/?/?) : Création du projet initial
