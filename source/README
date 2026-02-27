@@ -1,1 +1,9 @@
+# Source
+Ce répertoire contient les différents fichiers python (.py) chargés d'exétuter les calculs de la calculatrice.
+Il contient deux fichiers :
 
+# app.py :
+
+
+# operators.py :
+Ce fichier sert à 
