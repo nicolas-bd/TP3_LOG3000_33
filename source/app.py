@@ -25,10 +25,9 @@ def calculate(expr: str):
     """
 
     if not expr or not isinstance(expr, str):
-        # empty expression
         raise ValueError("empty expression")
 
-    # remove spaces
+    # remove spaces to avoid an incorrect read
     s = expr.replace(" ", "")
 
     # find the operator index
