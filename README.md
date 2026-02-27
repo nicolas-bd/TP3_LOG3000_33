@@ -37,23 +37,8 @@ ATTENTION: la calculatrice ne peut pas prendre en charge les opérations sur des
 ## Tests
 Vous pourrez trouver tous les tests du projet dans le dossier "source/tests".
 
-### Prérequis
-- Installer Python.
-- Installer "pytest" à l'aide de la commande "python -m pip install pytest".
-
-
-### Exécuter les tests
-Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
-- Pour lancer tous les tests :
-  Entrer la commande "python -m pytest -v"
-- Pour lancer les tests d'un fichier de test spécifique :
-  Entrer la commande "python -m pytest -v src/tests/test_operators.py"
-- Pour lancer un test précis :
-  Entrer la commande python -m pytest -v src/tests/test_operators.py::test_add"
-  
-
 ## Contributions
-- nicolas-bd (?/?/?) : Création du projet initial
+- PlayeerOne (10/20/2025) : Création du dépôt git initial
 - TCholette (02/27/2026) : Rédaction des documents ReadMe
 - RadioFloyd2351 (02/27/2026) : Rédaction de la documentation et création des fichiers de test
 
