@@ -1,5 +1,12 @@
+# Needed to set the system path to make it work
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from source.app import app, calculate
+
+
 
 # -------------------
 # Tests for calculate
