@@ -20,6 +20,6 @@ Ce fichier contient deux fonctions:
     - Envoyer le résultat de l'opération à afficher (calculée par la fonction "calculate") au client HTML
     - Envoyer une erreur au client HTML si le calcul n'est pas possible.
 
-Ce répertoire contient aussi les répertoires:
+# Ce répertoire contient aussi les répertoires:
 - *static*, contenant le fichier de style (voir "/static/README").
 - *templates*, contenant le fichier HTML (voir "/templates/README").
