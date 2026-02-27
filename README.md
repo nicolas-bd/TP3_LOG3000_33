@@ -53,7 +53,7 @@ Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
   
 
 ## Contributions
-- NicolasBilodeau?? (?/?/?) : Création du projet initial
-- TCholette (02/27/2026) : Rédaction des documents ReadMe 
-- RadioFloyd2351 (02/27/2026) : Rédaction de la documentation
+- nicolas-bd (?/?/?) : Création du projet initial
+- TCholette (02/27/2026) : Rédaction des documents ReadMe
+- RadioFloyd2351 (02/27/2026) : Rédaction de la documentation et création des fichiers de test
 
