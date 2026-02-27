@@ -35,4 +35,4 @@ def divide(a, b):
     :param b: The second number operand.
     :return: The quotient of the two numbers.
     """
-    return a // b
+    return a / b
