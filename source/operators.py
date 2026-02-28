@@ -15,7 +15,7 @@ def subtract(a, b):
     :param b: The second number operand.
     :return: The difference of the two numbers.
     """
-    return b - a
+    return a - b
 
 
 def multiply(a, b):
