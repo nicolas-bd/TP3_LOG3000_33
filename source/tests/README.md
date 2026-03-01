@@ -1,19 +1,14 @@
 # Tests
 
 ## Prérequis
-- Installer Python.
+- Avoir effectué toutes les installations requises dans le fichier README à la base du dépôt git.
 - Installer "pytest" à l'aide de la commande "python -m pip install pytest".
 
 ## Couverture
-Le fichier app_test.py couvre ...
-Le fichier operators_test.py couvre ...
+Le fichier app_test.py couvre les tests de fonctionnement de la communication entre le serveur et le client web et des l'appel aux opérations.
+Le fichier operators_test.py couvre les tests de fonctionnement des opérations de base.
 
 ## Exécuter les tests
-Aller dans le terminal intégré dans le répertoire "TP3_LOG3000_33".
-- Pour lancer tous les tests :
-  Entrer la commande "python -m pytest -v"
-- Pour lancer les tests d'un fichier de test spécifique :
-  Entrer la commande "python -m pytest -v src/tests/test_operators.py"
-- Pour lancer un test précis :
-  Entrer la commande python -m pytest -v src/tests/test_operators.py::test_add"
+Pour lancer les tests, il faut lancer un des deux fichiers du répertoire "source/test"
+Vous obtiendrez dans la console le résultat de chaque test.
   
