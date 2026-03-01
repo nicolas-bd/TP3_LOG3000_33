@@ -23,8 +23,7 @@ pour installer le projet, vous devez :
 
 ## Utilisation
 Pour utiliser le programme, il faut:
-- Ouvrir le fichier "app.py".
-- Démarrer le programme à l'aide de la flèche verte en haut de la fenêtre.
+- Démarrer le programme "app.py". Dépendamment de votre IDE, vous aurez possiblement une flèche verte en haut de la fenêtre.
 - Copier l'adresse locale du projet qui a été affichée dans la console.
 - Coller cette adresse dans un navigateur web.
 
